@@ -24,7 +24,10 @@ export class ProductListComponent implements OnInit {
     this.productService.getProducts().subscribe(products => {
       this.products = products;
     });
-    console.log(this.products);
+  }
+  //we can use if we have large number of products
+  trackByIndex(index: number): number {
+    return index;
   }
 
   onViewDetails(id: number): void {
