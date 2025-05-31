@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* button {
+    cursor: pointer;
+  } */
+  
+  @media (max-width: 768px) {
+    .detail-container {
+      flex-direction: column;
+    }
+    
+    .detail-image {
+      width: 100%;
+    }
+  }

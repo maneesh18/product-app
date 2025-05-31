@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Smart Phone",
+        "price": 599.99,
+        "description": " With new foldable feature",
+        "imageUrl": "https://www.istockphoto.com/photos/air-pods-laptop"
+    },
+    {
+        "id": 2,
+        "name": "Laptop",
+        "price": 999.99,
+        "description": " powerful for Gaming",
+        "imageUrl": "https://www.istockphoto.com/photos/air-pods-laptop"
+    },
+    {
+        "id": 3,
+        "name": "Headphones",
+        "price": 199.99,
+        "description": " Noice cancelation wireless headphones ",
+        "imageUrl": "https://www.istockphoto.com/photos/air-pods-laptop"
+    }
+]
