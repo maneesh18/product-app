@@ -1,6 +1,8 @@
 <div class="product-list">
     <h1>Our Products</h1>
     <div class="products-container">
+      <!-- Iterates over the products array and renders a ProductCardComponent for each product. -->
+      <!-- Passes the product data to the child component via @Input. -->
       <app-product-card 
         *ngFor="let product of products" 
         [product]="product"
