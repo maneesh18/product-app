@@ -4,6 +4,7 @@ import { AppRoutingModule } from './app.routes';
 import { AppComponent } from './app.component';
 import { ProductsModule } from './products/products.module';
 
+// Defines the root module that declares and imports all necessary components and modules
 @NgModule({
   declarations: [
     AppComponent

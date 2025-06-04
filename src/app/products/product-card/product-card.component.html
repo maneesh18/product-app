@@ -2,6 +2,7 @@
     <img [src]="product.imageUrl" alt="{{ product.name }}" class="product-image">
     <div class="product-info">
         <h3>{{ product.name }}</h3>
+        <!-- currency pipe to change the number to price format -->
         <p class="price">{{ product.price | currency }}</p>
         <p class="description">{{ product.description }}</p>
         <button (click) = "onViewDetails()" class="view-details-btn"> View Details</button>

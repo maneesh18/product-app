@@ -13,6 +13,7 @@ import { NgFor } from '@angular/common';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent implements OnInit {
+  // Holds the list of products fetched from the service
   products: Product[] = [];
 
   constructor(
@@ -21,6 +22,7 @@ export class ProductListComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    // Fetch all products when component initializes and assign them to local state
     this.productService.getProducts().subscribe(products => {
       this.products = products;
     });
@@ -31,6 +33,7 @@ export class ProductListComponent implements OnInit {
   }
 
   onViewDetails(id: number): void {
+    // Navigate to the detail view of the selected product using its ID
     this.router.navigate(['/products', id]);
   }
 }
